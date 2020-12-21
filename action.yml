@@ -1,0 +1,13 @@
+name: 'Unity Bump iOS Build Number'
+description: 'Increase Unity iOS Build Number by 1'
+inputs:
+  ProjectSettingsPath:
+    description: 'Path to the ProjectSettings.asset file'
+    required: true
+    default: './ProjectSettings/ProjectSettings.asset'
+outputs:
+  newBuildNumber:
+    description: 'The new iOS build number after bumping'
+runs:
+  using: 'node12'
+  main: 'index.js'

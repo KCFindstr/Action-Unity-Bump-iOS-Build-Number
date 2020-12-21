@@ -1,0 +1,30 @@
+{
+  "name": "action-unity-bump-ios-build-number",
+  "version": "0.0.1",
+  "description": "This github action increases iOS build number in Unity's ProjectSettings by 1.",
+  "main": "index.js",
+  "dependencies": {
+    "@actions/core": "^1.2.6",
+    "@actions/github": "^4.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KCFindstr/Action-Unity-Bump-iOS-Build-Number.git"
+  },
+  "keywords": [
+    "unity",
+    "github",
+    "action",
+    "ios",
+    "build"
+  ],
+  "author": "KCFindstr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KCFindstr/Action-Unity-Bump-iOS-Build-Number/issues"
+  },
+  "homepage": "https://github.com/KCFindstr/Action-Unity-Bump-iOS-Build-Number#readme"
+}
