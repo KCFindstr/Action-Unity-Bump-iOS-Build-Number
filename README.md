@@ -15,7 +15,7 @@ The new iOS build number after bumping.
 
 ## Example usage
 ```
-uses: KCFindstr/Action-Unity-Bump-iOS-Build-Number@v0.1
+uses: KCFindstr/Action-Unity-Bump-iOS-Build-Number@v0.2
 with:
   ProjectSettingsPath: './ProjectSettings/ProjectSettings.asset'
 ```
