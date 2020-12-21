@@ -10,4 +10,4 @@ outputs:
     description: 'The new iOS build number after bumping'
 runs:
   using: 'node12'
-  main: 'index.js'
+  main: 'dist/index.js'
