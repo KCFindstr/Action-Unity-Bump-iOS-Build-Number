@@ -9,13 +9,17 @@ This github action increases iOS build number in Unity's ProjectSettings by 1.
 
 ## Outputs
 
+### `oldBuildNumber`
+
+The original iOS build number before bumping.
+
 ### `newBuildNumber`
 
 The new iOS build number after bumping.
 
 ## Example usage
 ```
-uses: KCFindstr/Action-Unity-Bump-iOS-Build-Number@v0.2
+uses: KCFindstr/Action-Unity-Bump-iOS-Build-Number@v0.3
 with:
   ProjectSettingsPath: './ProjectSettings/ProjectSettings.asset'
 ```
