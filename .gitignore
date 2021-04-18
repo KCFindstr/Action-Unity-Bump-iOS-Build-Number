@@ -105,3 +105,4 @@ typings/
 
 # Coverage report
 coverage/
+temp/
