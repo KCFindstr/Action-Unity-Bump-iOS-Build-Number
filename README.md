@@ -1,4 +1,6 @@
 # Action-Unity-Bump-iOS-Build-Number
+[![build-test](https://github.com/KCFindstr/Action-Unity-Bump-iOS-Build-Number/workflows/build-test/badge.svg)](https://github.com/KCFindstr/Action-Unity-Bump-iOS-Build-Number/actions) [![codecov](https://codecov.io/gh/KCFindstr/Action-Unity-Bump-iOS-Build-Number/branch/main/graph/badge.svg)](https://codecov.io/gh/KCFindstr/Action-Unity-Bump-iOS-Build-Number)
+
 This github action increases iOS build number in Unity's ProjectSettings by 1.
 
 ## Inputs
