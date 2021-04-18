@@ -9,7 +9,7 @@
     "lodash": "^4.17.21"
   },
   "scripts": {
-    "build": "tsc",
+    "build": "tsc -p tsconfig.build.json",
     "lint": "eslint \"*.ts\" --fix",
     "test": "jest",
     "test:cov": "jest --coverage"
